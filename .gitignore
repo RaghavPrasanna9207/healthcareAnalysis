@@ -1,0 +1,11 @@
+healthcare_analysis_results/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+.DS_Store
+*.csv
+*.pkl
+*.xlsx
