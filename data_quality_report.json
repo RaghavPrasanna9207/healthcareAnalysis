@@ -1,0 +1,104 @@
+{
+  "total_records": 3297,
+  "missing_values": {
+    "Age": 0,
+    "Gender": 0,
+    "Region": 18,
+    "Do you smoke?": 30,
+    "Have you had Covid`19 this year?": 0,
+    "IgM level": 76,
+    "IgG level": 60,
+    "Blood group": 0,
+    "Do you vaccinated influenza?": 107,
+    "Do you vaccinated tuberculosis?": 3,
+    "Have you had influenza this year?": 7,
+    "Have you had tuberculosis this year? ": 7,
+    "Maximum body temperature": 1768
+  },
+  "duplicate_records": "1563",
+  "data_types": {
+    "Age": "category",
+    "Gender": "category",
+    "Region": "object",
+    "Do you smoke?": "object",
+    "Have you had Covid`19 this year?": "category",
+    "IgM level": "object",
+    "IgG level": "object",
+    "Blood group": "category",
+    "Do you vaccinated influenza?": "object",
+    "Do you vaccinated tuberculosis?": "object",
+    "Have you had influenza this year?": "object",
+    "Have you had tuberculosis this year? ": "object",
+    "Maximum body temperature": "float64"
+  },
+  "memory_usage": "1962361",
+  "column_stats": {
+    "Age": {
+      "unique_values": 6,
+      "most_common": "23-40",
+      "missing_percentage": 0.0
+    },
+    "Gender": {
+      "unique_values": 2,
+      "most_common": "Female",
+      "missing_percentage": 0.0
+    },
+    "Region": {
+      "unique_values": 7,
+      "most_common": "Ukraine, Lviv (\u041b\u044c\u0432\u0456\u0432)",
+      "missing_percentage": 0.5459508644222021
+    },
+    "Do you smoke?": {
+      "unique_values": 2,
+      "most_common": false,
+      "missing_percentage": 0.9099181073703366
+    },
+    "Have you had Covid`19 this year?": {
+      "unique_values": 4,
+      "most_common": "No",
+      "missing_percentage": 0.0
+    },
+    "IgM level": {
+      "unique_values": 3,
+      "most_common": "<0.9 (negative/\u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u0438\u0439)",
+      "missing_percentage": 2.305125872004853
+    },
+    "IgG level": {
+      "unique_values": 4,
+      "most_common": "<0.9 (negative/\u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u0438\u0439)",
+      "missing_percentage": 1.8198362147406733
+    },
+    "Blood group": {
+      "unique_values": 5,
+      "most_common": "2.0",
+      "missing_percentage": 0.0
+    },
+    "Do you vaccinated influenza?": {
+      "unique_values": 2,
+      "most_common": false,
+      "missing_percentage": 3.245374582954201
+    },
+    "Do you vaccinated tuberculosis?": {
+      "unique_values": 6,
+      "most_common": "Yes",
+      "missing_percentage": 0.09099181073703368
+    },
+    "Have you had influenza this year?": {
+      "unique_values": 5,
+      "most_common": "No",
+      "missing_percentage": 0.21231422505307856
+    },
+    "Have you had tuberculosis this year? ": {
+      "unique_values": 3,
+      "most_common": "No",
+      "missing_percentage": 0.21231422505307856
+    },
+    "Maximum body temperature": {
+      "mean": 37.710202746893394,
+      "std": 0.634367412341316,
+      "min": 36.6,
+      "max": 38.8,
+      "missing_percentage": 53.62450712769184
+    }
+  }
+}

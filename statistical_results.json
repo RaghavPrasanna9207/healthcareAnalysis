@@ -1,0 +1,163 @@
+{
+  "descriptive_stats": {
+    "numerical": {
+      "Maximum body temperature": {
+        "count": 1529.0,
+        "mean": 37.710202746893394,
+        "std": 0.634367412341316,
+        "min": 36.6,
+        "25%": 37.2,
+        "50%": 37.7,
+        "75%": 38.3,
+        "max": 38.8
+      }
+    },
+    "categorical": {
+      "Age": {
+        "count": 3297,
+        "unique": 6,
+        "top": "23-40",
+        "freq": 1174
+      },
+      "Gender": {
+        "count": 3297,
+        "unique": 2,
+        "top": "Female",
+        "freq": 1818
+      },
+      "Region": {
+        "count": 3279,
+        "unique": 7,
+        "top": "Ukraine, Lviv (\u041b\u044c\u0432\u0456\u0432)",
+        "freq": 3071
+      },
+      "Do you smoke?": {
+        "count": 3267,
+        "unique": 2,
+        "top": false,
+        "freq": 2498
+      },
+      "Have you had Covid`19 this year?": {
+        "count": 3297,
+        "unique": 4,
+        "top": "No",
+        "freq": 1768
+      },
+      "IgM level": {
+        "count": 3221,
+        "unique": 3,
+        "top": "<0.9 (negative/\u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u0438\u0439)",
+        "freq": 2651
+      },
+      "IgG level": {
+        "count": 3237,
+        "unique": 4,
+        "top": "<0.9 (negative/\u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u0438\u0439)",
+        "freq": 2587
+      },
+      "Blood group": {
+        "count": 3297,
+        "unique": 5,
+        "top": "2.0",
+        "freq": 1381
+      },
+      "Do you vaccinated influenza?": {
+        "count": 3190,
+        "unique": 2,
+        "top": false,
+        "freq": 2651
+      },
+      "Do you vaccinated tuberculosis?": {
+        "count": 3294,
+        "unique": 6,
+        "top": "Yes",
+        "freq": 2579
+      },
+      "Have you had influenza this year?": {
+        "count": 3290,
+        "unique": 5,
+        "top": "No",
+        "freq": 2347
+      },
+      "Have you had tuberculosis this year? ": {
+        "count": 3290,
+        "unique": 3,
+        "top": "No",
+        "freq": 3282
+      }
+    }
+  },
+  "hypothesis_tests": {
+    "chi_square_gender_covid": {
+      "statistic": 231.0692220466624,
+      "p_value": 8.121467757930564e-50,
+      "degrees_of_freedom": 3,
+      "significant": "True"
+    },
+    "t_test_temperature_gender": {
+      "statistic": 0.31377668524018765,
+      "p_value": 0.7537335106864032,
+      "significant": "False",
+      "male_mean": 37.717834394904465,
+      "female_mean": 37.70680529300567
+    }
+  },
+  "group_analysis": {
+    "temperature_by_gender": {
+      "count": {
+        "Female": 1058,
+        "Male": 471
+      },
+      "mean": {
+        "Female": 37.70680529300567,
+        "Male": 37.71783439490446
+      },
+      "std": {
+        "Female": 0.625075966539643,
+        "Male": 0.6553709215833635
+      },
+      "min": {
+        "Female": 36.6,
+        "Male": 36.6
+      },
+      "max": {
+        "Female": 38.8,
+        "Male": 38.8
+      }
+    },
+    "covid_by_age": {
+      "Maybe": {
+        "0-15": 0.11627906976744186,
+        "16-22": 0.12393681652490887,
+        "23-40": 0.1643952299829642,
+        "40-65": 0.19379115710253997,
+        ">65": 0.23834196891191708,
+        "nan": 0.0
+      },
+      "No": {
+        "0-15": 0.7906976744186046,
+        "16-22": 0.7533414337788579,
+        "23-40": 0.5212947189097104,
+        "40-65": 0.4007525870178739,
+        ">65": 0.39378238341968913,
+        "nan": 0.0
+      },
+      "Yes": {
+        "0-15": 0.06976744186046512,
+        "16-22": 0.1227217496962333,
+        "23-40": 0.3143100511073254,
+        "40-65": 0.40545625587958606,
+        ">65": 0.36787564766839376,
+        "nan": 1.0
+      },
+      "nan": {
+        "0-15": 0.023255813953488372,
+        "16-22": 0.0,
+        "23-40": 0.0,
+        "40-65": 0.0,
+        ">65": 0.0,
+        "nan": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+======================================================================
+HEALTHCARE DATA ANALYSIS REPORT
+Generated: 2025-07-13 12:54:11
+======================================================================
+
+DATASET OVERVIEW
+--------------------
+Total Records: 3,297
+Total Variables: 13
+Data Period: 2020-09-20 11:23:15 to 2021-04-05 03:18:16.644000
+Memory Usage: 1.87 MB
+
+MISSING DATA SUMMARY
+--------------------
+Region: 18 (0.5%)
+Do you smoke?: 30 (0.9%)
+IgM level: 76 (2.3%)
+IgG level: 60 (1.8%)
+Do you vaccinated influenza?: 107 (3.2%)
+Do you vaccinated tuberculosis?: 3 (0.1%)
+Have you had influenza this year?: 7 (0.2%)
+Have you had tuberculosis this year? : 7 (0.2%)
+Maximum body temperature: 1768 (53.6%)
+
+STATISTICAL SUMMARY
+--------------------
+Chi Square Gender Covid:
+  - p-value: 0.0000
+  - Significant: True
+
+T Test Temperature Gender:
+  - p-value: 0.7537
+  - Significant: False
+
+KEY FINDINGS
+--------------------
+• Gender distribution: {'Female': 1818, 'Male': 1479}
+• Most common age group: 23-40
+• Average temperature: 37.71°C
+• Temperature range: 36.6°C - 38.8°C
+• COVID-19 positive rate: 29.6%
+
+TECHNICAL DETAILS
+--------------------
+Analysis Version: 2.0
+Libraries: pandas 2.3.1, numpy 2.3.1
+Configuration: AnalysisConfig(data_url='https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/data-science-in-health-care-basic-statistical-analysis/COVID_19.xlsx', output_dir='healthcare_analysis_results', figure_format='png', figure_dpi=300, random_seed=42, date_format='%Y-%m-%d %H:%M:%S', sample_size=1000, confidence_level=0.95)
